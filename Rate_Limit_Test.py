@@ -1,7 +1,6 @@
 #Tests a login page for rate limiting.
 #The standard test for "lack of rate limiting" is 300 requests in under 1 minute.
 import requests, threading, time, math, sys
-#add sys.argv
 
 def createRequestObj(text):
     #username=USERNAME&password=PASSWORD&csrf=xxxxxxxxxx
